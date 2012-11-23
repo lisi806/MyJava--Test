@@ -1,5 +1,4 @@
 package 访问控制;
-import static 访问控制.ProtectedTest.PROJECTION;
 
 public class PackageTest {
 //	public void test() {
@@ -9,5 +8,6 @@ public class PackageTest {
 	ProtectedTest pa = new ProtectedTest();
 	public void aa(){
 		pa.test();
+		
 	}
 }

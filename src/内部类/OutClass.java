@@ -1,23 +1,38 @@
 package 内部类;
+/**
+ * 功能：
+ * @author： 传秋
+ * @date：2012-5-16
+ */
 
-public class OutClass {
-	public int aOut;
+class OutClass {
+	static int a;
+	public String strPub;
+	String strNo;
+	private static  String strPri;
+	static {
+		System.out.println("OutClass");
+	}
 	public class InnerClass {
-		public int aInner;
-		public void print() {
-			System.out.println("Inner");
+		{
+			System.out.println("InnerClass");
+		}
+		
+		int strIn;
+		void printIn(){
+			System.out.println("InnerClass:"+strPri);
 		}
 	}
-	
-	public static class InnerStaticClass {
-		public int aInnerStatic;
-		public static void print() {
-			System.out.println("Inner");
+	static class InnerStaticClass {
+		static {
+			System.out.println("InnerStaticClass"+a);
+		}
+		static int strInSta;
+		void printInSta(){
+			System.out.println("InnerStaticClass:"+a);
 		}
 	}
-	public void print(){
-		InnerStaticClass a = new InnerStaticClass();
-		System.out.println(a.aInnerStatic);
-		InnerStaticClass.print();
+	static void printOut(){
+		System.out.println("OutClass:"+InnerStaticClass.strInSta);
 	}
 }

@@ -30,40 +30,36 @@ class Store {
 		this.mTotalCount = 0;
 	}
 	public void produce(int num) {
-		while (true) {
-			synchronized (this) {
-				while (mTotalCount >= 100) {
-					try {
-						System.out.println("it is full*******");
-						wait();
-					} catch (InterruptedException e) {
-						// TODO Auto-generated catch block
-						e.printStackTrace();
-					}
+		synchronized (this) {
+			if (mTotalCount > 100) {
+				try {
+					System.out.println("it is full*******");
+					wait();
+				} catch (InterruptedException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
 				}
-				this.mTotalCount += num;
-				notifyAll();
-				System.out.println("增加数量：" + num + " 总量：" + mTotalCount);
 			}
+			this.mTotalCount += num;
+			notify();
+			System.out.println("增加数量：" + num);
 		}
 	}
 	
 	public void consume (int num) {
-		while (true) {
-			synchronized (this) {
-				while (mTotalCount - num <= 0) {
-					try {
-						System.out.println("it is empty#############");
-						wait();
-					} catch (InterruptedException e) {
-						// TODO Auto-generated catch block
-						e.printStackTrace();
-					}
+		synchronized (this) {
+			if (mTotalCount < 0) {
+				try {
+					System.out.println("it is empty#############");
+					wait();
+				} catch (InterruptedException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
 				}
-				this.mTotalCount -= num;
-				notifyAll();
-				System.out.println("消费数量：" + num + " 总量：" + mTotalCount);
 			}
+			this.mTotalCount -= num;
+			notify();
+			System.out.println("消费数量：" + num);
 		}
 	}
 	
