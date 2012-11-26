@@ -16,13 +16,18 @@ public class InvokeTestFather {
 
 }
 
-class  Father{
+class  Father1{
+	public Father1() {
+		// TODO Auto-generated constructor stub
+	}
+
 	public int add (int a, int b) {
 		System.out.println("a+b="+(a+b));
 		return a+b;
 	}
 }
-class Son extends Father{
+
+class Son extends Father1{
 	public Son(){
 		super();
 	}
