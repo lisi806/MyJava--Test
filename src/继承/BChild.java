@@ -1,18 +1,25 @@
 package ผฬณะ;
 
 public class BChild extends Asuper {
-	
-	public void a(){
-		System.out.println("b!!");
+	int a;
+	@Override
+	public void doSome(){
+		System.out.println("BChild!!");
 	}
 
+	public void print(){
+		
+		this.doSome();
+	}
 	/**
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		BChild bChild = new BChild();
-		((Asuper)bChild).a();
+		Asuper asuper = (Asuper)new BChild();
+		asuper.doSome();
 	}
-
+	class Inner {
+		public void test () {
+		}
+	}
 }

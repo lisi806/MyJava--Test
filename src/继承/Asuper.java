@@ -1,7 +1,13 @@
 package ผฬณะ;
 
 public class Asuper {
-	public void a(){
-		System.out.println("a!!");
+	Asuper parent;
+	int a;
+	public Asuper(){
+		parent = Asuper.this;
+	}
+	
+	protected void doSome(){
+		System.out.println("Asuper!!");
 	}
 }

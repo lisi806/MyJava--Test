@@ -11,7 +11,7 @@ public class WaitTest {
 			try {
 				threadB.wait();
 				System.out.println("3-->"+System.currentTimeMillis());
-				System.out.println("waiting¡­¡­");
+				System.out.println("waiting over¡­¡­");
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}
@@ -27,7 +27,7 @@ class ThreadB extends Thread {
 	public void run(){
 		System.out.println("5-->"+System.currentTimeMillis());
 		synchronized(this){
-			System.out.println("6-->"+System.currentTimeMillis());
+			System.out.println("6-->¿ªÊ¼¼ÆËã"+System.currentTimeMillis());
 			for (int i =0; i < 100; i++) {
 				result += i;
 			}
