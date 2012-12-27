@@ -2,7 +2,6 @@
 import test.json.JSONException;
 import test.json.JSONObject;
 
-import com.google.gson.Gson;
 
 
 public class TestJson {
