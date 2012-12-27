@@ -1,6 +1,7 @@
 package нд╪Ч;
 
 import java.io.File;
+import java.io.IOException;
 
 public class TestFile {
 
@@ -11,6 +12,11 @@ public class TestFile {
 		// TODO Auto-generated method stub
 		createFile("d:/test/aa/a.txt");
 		new File("d:/test1/aa/a.txt").mkdirs();
+		try {
+			new File("d:/test", ".nomedia").createNewFile();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 	}
 	public static File createFile(String s)
 	{
