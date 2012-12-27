@@ -1,6 +1,7 @@
 package нд╪Ч;
 
 import java.io.File;
+import java.io.IOException;
 
 public class TestFile {
 
@@ -8,9 +9,11 @@ public class TestFile {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		System.out.println(File.pathSeparator);
-		System.out.println(File.separator);
+		try {
+			new File("d:/test", ".nomedia").createNewFile();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 	}
 
 }

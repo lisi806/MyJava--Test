@@ -4,8 +4,9 @@ import java.util.Timer;
 import java.util.TimerTask;
 
 public class AsyncToSync {
-	static Object object = new Object();
+	static Object object ;
 	static boolean isFinished = false;
+	static String result;
 	/**
 	 * @param args
 	 */
@@ -32,13 +33,14 @@ public class AsyncToSync {
 				//synchronized (object) {
 					System.out.println("do in back");
 					try {
-						sleep(1000);
+						sleep(3000);
 					} catch (InterruptedException e) {
 						e.printStackTrace();
 					}
 					System.out.println("do complete");
 					isFinished = true;
 					synchronized (object) {
+						result = "ok";
 						object.notifyAll();
 					}
 				//	object.notifyAll();
@@ -47,17 +49,21 @@ public class AsyncToSync {
 		}.start();
 	}
 	private void getResult(){
-		synchronized (object) {
-			if(!isFinished) {
-				System.out.println("wait...");
-				try {
-					object.wait(5000);
-				} catch (InterruptedException e) {
-					e.printStackTrace();
+		if(result == null ) {
+			synchronized (object) {
+				if(!isFinished) {
+					System.out.println("wait...");
+					try {
+						object.wait(5000);
+					} catch (InterruptedException e) {
+						e.printStackTrace();
+					}
 				}
+				System.out.println("ok");
 			}
-			System.out.println("ok");
 		}
+		System.out.println("result:" + result);
+		
 	}
 //	private void mNotify(){
 //		synchronized (object) {
