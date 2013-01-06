@@ -7,11 +7,11 @@ public class StringReplace {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String a = "abcwwwbaiducomwww.baidu.com";
-		String result = a.replaceAll("www", "*");
-		String result1 = a.replaceAll("www\\.", "*");
-		System.out.println(result);
-		System.out.println(result1);
+		String a = "<td>aa</td>";
+		int start = a.indexOf("<td>")+"<td>".length();
+		int end = a.indexOf("</td>");
+		System.out.println(a.substring(start));
+		System.out.println(start + "'" + end);
 	}
 
 }
