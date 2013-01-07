@@ -1,4 +1,4 @@
-package instanceofTest;
+package instanceof≤‚ ‘;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -8,7 +8,7 @@ import java.util.List;
 
 import javax.management.AttributeList;
 
-public class InstanceOfTest {
+public class InstanceOfTest_1 {
 	/**
 	 * @param args
 	 */

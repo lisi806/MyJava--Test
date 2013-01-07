@@ -19,19 +19,24 @@ public class CoverTest extends FatherCover {
 		for (String str : test.mHeaders) {
 			System.out.println(str);
 		}
-		System.out.println("........."+ test.a);
-		FatherCover fa = (CoverTest)test;
+		System.out.println(".........");
+		
+		FatherCover fa = test;
 		for (String str : fa.mHeaders) {
 			System.out.println(str);
 		}
-		System.out.println("........."+ fa.a);
+		
+		System.out.println(".........");
+		fa.test();
 		//fa.test();
 	}
 	
-	void tt(){
+	@Override
+	String tt(){
 		super.tt();
 		this.mHeaders.add("child tt");
 		super.mHeaders.add("father-child tt");
+		return null;
 	}
 
 	@Override

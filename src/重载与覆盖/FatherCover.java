@@ -8,11 +8,15 @@ public class FatherCover {
 //	static {
 //		mHeaders.add("a");
 //	}
-	 void test(){
+	void test(){
 		System.out.println("FatherCover test");
 	}
 	 
-	 void tt(){
+	 Object tt(){
 			this.mHeaders.add("father tt");
+			return null;
 		}
+}
+class A {
+	int b;
 }

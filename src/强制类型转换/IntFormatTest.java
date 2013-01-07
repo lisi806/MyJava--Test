@@ -1,4 +1,4 @@
-package 强制转换测试;
+package 强制类型转换;
 /**
  * 功能：
  * @author： 传秋
