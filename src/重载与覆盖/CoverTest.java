@@ -5,33 +5,39 @@ import java.util.List;
 
 public class CoverTest extends FatherCover {
 	public  List<String> mHeaders = new ArrayList<String>();
-	int a = 2;
+	String a = "child";
 	/**
 	 * @author lcq
 	 * @date 2013-1-6
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		CoverTest test = new CoverTest();
-		test.mHeaders = new ArrayList<String>();
+		FatherCover test = new CoverTest();
 		test.tt();
-		test.mHeaders.add("c");
+		//test.mHeaders.add("c");
 		for (String str : test.mHeaders) {
 			System.out.println(str);
 		}
-		System.out.println("........."+ test.a);
-		FatherCover fa = (CoverTest)test;
+		System.out.println(".........");
+		FatherCover fa = test;
+		for (String str : fa.mHeaders) {
+		System.out.println(".........");
+		
+		FatherCover fa = test;
 		for (String str : fa.mHeaders) {
 			System.out.println(str);
 		}
-		System.out.println("........."+ fa.a);
-		//fa.test();
+		
+		System.out.println(".........");
+		fa.test();
 	}
 	
-	void tt(){
+	@Override
+	String tt(){
 		super.tt();
 		this.mHeaders.add("child tt");
 		super.mHeaders.add("father-child tt");
+		return null;
 	}
 
 	@Override
