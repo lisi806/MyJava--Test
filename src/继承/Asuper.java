@@ -1,6 +1,6 @@
 package ผฬณะ;
 
-public class Asuper {
+public class Asuper extends Super{
 	Asuper parent;
 	int a;
 	public Asuper(){

@@ -1,11 +1,11 @@
 package ผฬณะ;
 
-public class Child extends Super {
+public class Child extends Asuper {
 	private int[] a ;
 	
 	public static void main(String[] arg){
 		Child child = new Child();
-		child.test();
+		child.doSome();
 	}
 	public void test(){
 		setA(new String[]{"a","b","c"});

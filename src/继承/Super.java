@@ -10,5 +10,8 @@ public class Super {
 	public void setA(CharSequence[] a) {
 		this.a = a;
 	}
+	protected void doSome(){
+        System.out.println("Super!!");
+    }
 	
 }
