@@ -9,9 +9,6 @@ public class OutTest implements Cloneable {
 	 * @throws IOException
 	 */
 	public static void main(String[] args) {
-		String aa = "aaaabbb";
-		aa.replace("ab", "xx");
-		System.out.println(aa);
+		
 	}
-
 }
