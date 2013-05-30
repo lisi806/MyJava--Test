@@ -1,5 +1,7 @@
 package ผฬณะ;
 
+import ผฬณะ.inner.Super;
+
 public class Asuper extends Super{
 	Asuper parent;
 	int a;

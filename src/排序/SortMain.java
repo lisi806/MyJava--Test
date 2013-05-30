@@ -1,5 +1,5 @@
-package 算法.排序;
-import 接口.A;
+package 排序;
+import 接口.inner.AInterface;
 
 
 public class SortMain {

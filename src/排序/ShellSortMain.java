@@ -1,4 +1,4 @@
-package À„∑®.≈≈–Ú;
+package ≈≈–Ú;
 
 public class ShellSortMain {
 
