@@ -1,8 +1,11 @@
 import java.io.IOException;
+import java.util.concurrent.SynchronousQueue;
+import java.util.concurrent.TimeUnit;
 
 public class OutTest implements Cloneable {
-	String aa;
-	Object ojb;
+    String aa;
+    Object ojb;
+
 
 	/**
 	 * @param args

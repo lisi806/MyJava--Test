@@ -1,5 +1,5 @@
 
-package 算法.排序.快速排序;
+package 排序.快速排序.google实现;
 
 public class QuickSort {
 

@@ -1,7 +1,8 @@
-package ผฬณะ;
+package ผฬณะ.inner;
 
 public class Super {
 	private CharSequence[] a ;
+	int b;
 
 	public CharSequence[] getA() {
 		return a;

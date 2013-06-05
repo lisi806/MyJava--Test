@@ -9,7 +9,7 @@ import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
-import ผฬณะ.Super;
+import ผฬณะ.inner.Super;
 
 public class ArrayListAddTest {
 
