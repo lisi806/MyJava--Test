@@ -5,10 +5,14 @@ public class WaitTest {
 		ThreadB threadB = new ThreadB();
 		threadB.start();
 		System.out.println("1-->"+System.currentTimeMillis());
+		float result = 1000000000;;
+		for(int i = 1; i < 1000000; i++) {
+		    result /= i; 
+		}
 		synchronized (threadB) {
 			System.out.println("WaitTest等待threadB完成计算");
-			System.out.println("2-->"+System.currentTimeMillis());
 			try {
+			    System.out.println("2-->"+System.currentTimeMillis());
 				threadB.wait();
 				System.out.println("3-->"+System.currentTimeMillis());
 				System.out.println("waiting over……");
@@ -32,6 +36,11 @@ class ThreadB extends Thread {
 				result += i;
 			}
 			notify();
+			try {
+                wait(1000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
 			System.out.println("ThreadB完成计算");
 		}
 		System.out.println("7-->"+System.currentTimeMillis());
