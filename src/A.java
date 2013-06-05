@@ -1,5 +1,5 @@
 
-public abstract class A {
+public class A {
 
 	int result;
 	public void setResult(int result){
