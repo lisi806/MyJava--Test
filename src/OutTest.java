@@ -13,7 +13,11 @@ public class OutTest implements Cloneable {
 	 */
 	public static void main(String[] args) {
 		String str = null;
-		System.out.println(str.length());
+		String a = "asdfasdfasdfasdfasdfasdfasdfasdfasdfasdfaaaaaaaaaaaaaaaaaaaaaaaa" +
+				"asdfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffasdf" +
+				"asdfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff" +
+				"asdfffffffffffffffffffffffffffffffffffffffff";
+		System.out.println(a.getBytes().length);
 	}
 
 }
