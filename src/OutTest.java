@@ -12,12 +12,10 @@ public class OutTest implements Cloneable {
 	 * @throws IOException
 	 */
 	public static void main(String[] args) {
-		String str = null;
-		String a = "asdfasdfasdfasdfasdfasdfasdfasdfasdfasdfaaaaaaaaaaaaaaaaaaaaaaaa" +
-				"asdfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffasdf" +
-				"asdfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff" +
-				"asdfffffffffffffffffffffffffffffffffffffffff";
-		System.out.println(a.getBytes().length);
+		
+		System.out.println(String.format("[F:%s(%s)][url:%s][%s][step:%s]",
+				"subcribeRelationCheck", Integer.toHexString(new Object().hashCode()),
+				"http://test", "", "a->b"));
 	}
 
 }
