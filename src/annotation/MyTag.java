@@ -7,6 +7,6 @@ import java.lang.annotation.Target;
 
 @Retention(RetentionPolicy.RUNTIME)
 public @interface MyTag {
-    String name();
+	String name();
     int age();
 }

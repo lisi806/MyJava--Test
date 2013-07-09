@@ -3,7 +3,7 @@ package ½Ó¿Ú.inner;
 public class B extends Aabstract{
 
     @Override
-    void a() {
+    public void a() {
     }
 
 }
