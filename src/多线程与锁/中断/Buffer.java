@@ -1,5 +1,4 @@
-
-package ¶àÏß³ÌÓëËø.ÖĞ¶Ï;
+ï»¿package å¤šçº¿ç¨‹ä¸é”.ä¸­æ–­;
 
 public class Buffer {
 
@@ -12,20 +11,20 @@ public class Buffer {
     public void write() {
         synchronized (lock) {
             long startTime = System.currentTimeMillis();
-            System.out.println("¿ªÊ¼ÍùÕâ¸öbuffĞ´ÈëÊı¾İ¡­");
-            for (;;)// Ä£ÄâÒª´¦ÀíºÜ³¤Ê±¼ä
+            System.out.println("å¼€å§‹å†™");
+            for (;;)// 
             {
                 if (System.currentTimeMillis()
                         - startTime > Integer.MAX_VALUE)
                     break;
             }
-            System.out.println("ÖÕÓÚĞ´ÍêÁË");
+            System.out.println("å®Œæˆå†™");
         }
     }
 
     public void read() {
         synchronized (lock) {
-            System.out.println("´ÓÕâ¸öbuff¶ÁÊı¾İ");
+            System.out.println("å¼€å§‹è¯»");
         }
     }
 }

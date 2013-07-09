@@ -1,4 +1,4 @@
-package cloneÓëĞòÁĞ»¯;
+ï»¿package cloneä¸åºåˆ—åŒ–;
 
 public class CloneTest1  
 {  
@@ -15,7 +15,7 @@ public class CloneTest1
         student.setName("zhangsan");  
         student.setTeacher(teacher);  
           
-        //clone·½·¨·µ»ØµÄÊÇObjectÀàĞÍµÄ¶ÔÏó£¬¼´»áÉú³ÉĞÂµÄ¶ÔÏó  
+        //cloneé‚è§„ç¡¶æ©æ–¿æ´–é•„å‹¬æ§¸Objectç»«è¯²ç€·é•„å‹«î‡®ç’â˜…ç´é—å……ç»†é¢ç†¸åšé‚æ‰®æ®‘ç€µç¡…è–„  
         Student student2 = (Student)student.clone();  
           
         System.out.println(student2.getAge());  
@@ -26,16 +26,16 @@ public class CloneTest1
         System.out.println("----------------------------------");  
           
         /** 
-         * ÒÔÏÂ¼¸ĞĞËµÃ÷cloneÊÇÇ³¸´ÖÆ(Ö»ÊÇ¸´ÖÆÒıÓÃ)£¬¼´¸´ÖÆºóÁ½¸ö¶ÔÏóÖĞµÄteacherÊôĞÔ¶¼Ö¸ÏòÍ¬Ò»¸ö¶ÔÏó£¬ 
-         * Èç¹û°Ñ¿½±´µÄ¶ÔÏóµÄteacherÊôĞÔÖØĞÂÉèÖÃ£¬Ôò»áÓ°Ïì±»¿½±´µÄ¶ÔÏó¡£ 
+         * æµ ãƒ¤ç¬…é‘çŠºî”‘ç’‡å­˜æ§‘cloneé„îˆ›ç¥¬æ¾¶å¶…åŸ—(é™î…æ§¸æ¾¶å¶…åŸ—å¯®æ—·æ•¤)é”›å±½åµ†æ¾¶å¶…åŸ—éšåºè¢±æ¶“î„î‡®ç’â€²è…‘é•„åˆ™eacherçç‚´â‚¬Ñ‡å…˜é¸å›§æ‚œéšå±¼ç«´æ¶“î„î‡®ç’â˜…ç´ 
+         * æ¿¡å‚›ç‰é¶å©ƒå«¹ç’æ¿ˆæ®‘ç€µç¡…è–„é•„åˆ™eacherçç‚´â‚¬Ñ‡å¨é‚æ‹Œî†•ç¼ƒî‡†ç´é’æ¬ç»†è¤°åæ·çšî‚£å«¹ç’æ¿ˆæ®‘ç€µç¡…è–„éŠ†?
          */  
         student2.getTeacher().setName("hello world");  
         student2.getTeacher().setAge(44);  
-        student2.setName("lisi");//²»»á¸Ä±ästudentµÄÊôĞÔ  
+        student2.setName("lisi");//æ¶“å´­ç»†é€ç‘°å½‰studenté•„å‹«ç˜é•? 
           
         System.out.println(student2.getAge());  
         System.out.println(student2.getName());  
-        //student2ÖĞµÄteacher¶ÔÏóÒ²·¢ÉúÁË¸Ä±ä  
+        //student2æ¶“î… æ®‘teacherç€µç¡…è–„æ¶”ç†·å½‚é¢ç†¶ç®€é€ç‘°å½‰  
         System.out.println(student2.getTeacher().getAge());  
         System.out.println(student2.getTeacher().getName());  
           

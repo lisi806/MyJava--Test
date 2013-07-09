@@ -1,4 +1,4 @@
-package test.json;
+﻿package test.json;
 
 /*
 Copyright (c) 2006 JSON.org

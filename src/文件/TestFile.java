@@ -1,4 +1,4 @@
-package �ļ�;
+﻿package 文件;
 
 import java.io.File;
 import java.io.IOException;

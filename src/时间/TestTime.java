@@ -1,4 +1,4 @@
-package Ê±¼ä;
+ï»¿package æ—¶é—´;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -6,9 +6,9 @@ import java.util.Calendar;
 import java.util.Date;
 
 /**
- * ¹¦ÄÜ£º
- * @author£º ´«Çï
- * @date£º2011-5-2
+ * åŠŸèƒ½ï¼š
+ * @authorï¼š ä¼ ç§‹
+ * @dateï¼š2011-5-2
  */
 
 public class TestTime {

@@ -1,17 +1,17 @@
-package ½Ó¿Ú;
+ï»¿package æ¥å£;
 
-import ½Ó¿Ú.inner.Aabstract;
+import æ¥å£.inner.Aabstract;
 
 /**
- * ¹¦ÄÜ£º
- * @author£º ´«Çï
- * @date£º2011-8-14
+ * åŠŸèƒ½ï¼š
+ * @authorï¼š ä¼ ç§‹
+ * @dateï¼š2011-8-14
  */
 
 public class Aclass extends Aabstract{
 	
 	public void play(){
-		System.out.println("Aclass playing¡­¡­");
+		System.out.println("Aclass playingâ€¦â€¦");
 	}
 
 	@Override

@@ -1,8 +1,8 @@
-package ÄÚ²¿Àà;
+ï»¿package å†…éƒ¨ç±»;
 /**
- * ¹¦ÄÜ£º
- * @author£º ´«Çï
- * @date£º2012-5-16
+ * åŠŸèƒ½ï¼š
+ * @authorï¼š ä¼ ç§‹
+ * @dateï¼š2012-5-16
  */
 
 class OutClass {

@@ -1,6 +1,6 @@
-package ÅÅĞò;
+ï»¿package æ’åº;
 
-import ½Ó¿Ú.inner.AInterface;
+import æ¥å£.inner.AInterface;
 
 public class SortMain {
 

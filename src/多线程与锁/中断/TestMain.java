@@ -1,5 +1,5 @@
-
-package ¶àÏß³ÌÓëËø.ÖĞ¶Ï;
+ï»¿
+package å¤šçº¿ç¨‹ä¸é”.ä¸­æ–­;
 
 public class TestMain {
     public static void main(String[] args) {
@@ -17,10 +17,10 @@ public class TestMain {
             public void run() {
                 long start = System.currentTimeMillis();
                 for (;;) {
-                    // µÈ5ÃëÖÓÈ¥ÖĞ¶Ï¶Á
+                    // ç­‰5ç§’é’Ÿå»ä¸­æ–­è¯»
                     if (System.currentTimeMillis()
                             - start > 2000) {
-                        System.out.println("²»µÈÁË£¬³¢ÊÔÖĞ¶Ï");
+                        System.out.println("ä¸ç­‰äº†ï¼Œå°è¯•ä¸­æ–­");
                         reader.interrupt();
                         break;
                     }

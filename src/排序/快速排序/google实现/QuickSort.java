@@ -1,5 +1,5 @@
-
-package ÅÅĞò.¿ìËÙÅÅĞò.googleÊµÏÖ;
+ï»¿
+package æ’åº.å¿«é€Ÿæ’åº.googleå®ç°;
 
 public class QuickSort {
 

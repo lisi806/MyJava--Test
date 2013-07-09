@@ -1,4 +1,4 @@
-package ¶àÏß³ÌÓëËø;
+ï»¿package å¤šçº¿ç¨‹ä¸é”;
 
 public class ThreadJoin extends Thread{
 
@@ -21,7 +21,7 @@ public class ThreadJoin extends Thread{
             System.out.print(i); 
             try { 
                 Thread.sleep(1); 
-                System.out.print("    Ïß³ÌË¯Ãß1ºÁÃë£¡\n"); 
+                System.out.print("    çº¿ç¨‹ç¡çœ 1æ¯«ç§’ï¼\n"); 
             } catch (InterruptedException e) { 
                 e.printStackTrace(); 
             } 

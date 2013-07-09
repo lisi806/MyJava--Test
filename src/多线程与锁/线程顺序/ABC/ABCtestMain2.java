@@ -1,4 +1,4 @@
-package ¶àÏß³ÌÓëËø.Ïß³ÌË³Ğò.ABC;
+ï»¿package å¤šçº¿ç¨‹ä¸é”.çº¿ç¨‹é¡ºåº.ABC;
 
 public class ABCtestMain2 {
 
@@ -42,7 +42,7 @@ public class ABCtestMain2 {
                         lock.setHolder(nextName);
                     }
                 }else{
-//                	System.out.println("\nwaiting¡­¡­"+lock.getHolder());
+//                	System.out.println("\nwaitingé”Ÿæ–¤æ‹·é”Ÿæ–¤æ‹·"+lock.getHolder());
                 	
                 }
                 	

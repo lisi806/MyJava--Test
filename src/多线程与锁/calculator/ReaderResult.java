@@ -1,6 +1,6 @@
-package ¶àÏß³ÌÓëËø.calculator;
+ï»¿package å¤šçº¿ç¨‹ä¸é”.calculator;
 
-import ¶àÏß³ÌÓëËø.calculator.Calculator;
+import å¤šçº¿ç¨‹ä¸é”.calculator.Calculator;
 
 public class ReaderResult extends Thread {
 	Calculator c;
@@ -12,23 +12,21 @@ public class ReaderResult extends Thread {
 	public void run() {
 		synchronized (c) {
 			try {
-				System.out.println(Thread.currentThread() + "µÈ´ı¼ÆËã½á¹û¡£¡£¡£");
+				System.out.println(Thread.currentThread() + "");
 				c.wait();
 				c.notifyAll();
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}
-			System.out.println(Thread.currentThread() + "¼ÆËã½á¹ûÎª£º" + c.total);
+			System.out.println(Thread.currentThread() + "" + c.total);
 		}
 	}
 
 	public static void main(String[] args) {
 		Calculator calculator = new Calculator();
-		// Æô¶¯10¸öÏß³Ì£¬·Ö±ğ»ñÈ¡¼ÆËã½á¹û
 		for (int i = 0; i < 5; i++) {
 			new ReaderResult(calculator).start();
 		}
-		// Æô¶¯¼ÆËãÏß³Ì
 		calculator.start();
 	}
 }

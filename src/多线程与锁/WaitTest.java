@@ -1,4 +1,4 @@
-package ¶àÏß³ÌÓëËø;
+ï»¿package å¤šçº¿ç¨‹ä¸Žé”;
 
 public class WaitTest {
 	public static void main(String[] args){
@@ -10,17 +10,17 @@ public class WaitTest {
 		    result /= i; 
 		}
 		synchronized (threadB) {
-			System.out.println("WaitTestµÈ´ýthreadBÍê³É¼ÆËã");
+			System.out.println("WaitTestç­‰å¾…threadBå®Œæˆè®¡ç®—");
 			try {
 			    System.out.println("2-->"+System.currentTimeMillis());
 				threadB.wait();
 				System.out.println("3-->"+System.currentTimeMillis());
-				System.out.println("waiting over¡­¡­");
+				System.out.println("waiting overâ€¦â€¦");
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}
 			System.out.println("4-->"+System.currentTimeMillis());
-			System.out.println("bµÄ¼ÆËã½á¹û:"+threadB.result);
+			System.out.println("bçš„è®¡ç®—ç»“æžœ:"+threadB.result);
 		}
 	}
 }
@@ -31,7 +31,7 @@ class ThreadB extends Thread {
 	public void run(){
 		System.out.println("5-->"+System.currentTimeMillis());
 		synchronized(this){
-			System.out.println("6-->¿ªÊ¼¼ÆËã"+System.currentTimeMillis());
+			System.out.println("6-->å¼€å§‹è®¡ç®—"+System.currentTimeMillis());
 			for (int i =0; i < 100; i++) {
 				result += i;
 			}
@@ -41,7 +41,7 @@ class ThreadB extends Thread {
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-			System.out.println("ThreadBÍê³É¼ÆËã");
+			System.out.println("ThreadBå®Œæˆè®¡ç®—");
 		}
 		System.out.println("7-->"+System.currentTimeMillis());
 	}

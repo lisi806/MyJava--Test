@@ -1,4 +1,4 @@
-package static²âÊÔ;
+ï»¿package staticæµ‹è¯•;
 
 public class VariantTest
 {

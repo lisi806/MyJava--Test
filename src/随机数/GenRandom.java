@@ -1,8 +1,8 @@
-package Ëæ»úÊı;
+ï»¿package éšæœºæ•°;
 /**
- * ¹¦ÄÜ£º
- * @author£º ´«Çï
- * @date£º2011-7-19
+ * åŠŸèƒ½ï¼š
+ * @authorï¼š ä¼ ç§‹
+ * @dateï¼š2011-7-19
  */
 
 public class GenRandom {

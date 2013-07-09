@@ -1,4 +1,4 @@
-package ¶àÏß³ÌÓëËø.ÖĞ¶Ï;
+ï»¿package å¤šçº¿ç¨‹ä¸é”.ä¸­æ–­;
 
 public class WriterInterrupt extends Thread {    
     

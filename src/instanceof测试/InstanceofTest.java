@@ -1,8 +1,8 @@
-package instanceof²âÊÔ;
+ï»¿package instanceofæµ‹è¯•;
 /**
- * ¹¦ÄÜ£º
- * @author£º ´«Çï
- * @date£º2012-2-17
+ * é”Ÿæ–¤æ‹·é”Ÿæ°ï½æ‹·
+ * @authoré”Ÿæ–¤æ‹· é”Ÿæ–¤æ‹·é”Ÿæ–¤æ‹·
+ * @dateé”Ÿæ–¤æ‹·2012-2-17
  */
 
 public class InstanceofTest {

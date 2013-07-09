@@ -1,4 +1,4 @@
-package string²âÊÔ;
+ï»¿package stringæµ‹è¯•;
 
 public class StringMethodTest {
 
@@ -7,8 +7,8 @@ public class StringMethodTest {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String str = "abcÎÒ£¬Äãdef";
-		char [] ch = {'a','b','c','ÎÒ','Äã','£Ô'};
+		String str = "abcæˆ‘";
+		char [] ch = {'a','b','c','æˆ‘','ä½ ','ä»–'};
 		System.out.println(String.copyValueOf(ch));
 		System.out.println(str.getBytes()[0]);
 		

@@ -1,4 +1,4 @@
-package ÕıÔò±í´ïÊ¾;
+ï»¿package æ­£åˆ™è¡¨è¾¾ç¤º;
 
 public class Pattern {
 

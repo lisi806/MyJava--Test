@@ -1,4 +1,4 @@
-package ¶àÏß³ÌÓëËø;
+ï»¿package å¤šçº¿ç¨‹ä¸é”;
 
 public class ThreadExtendsTest {
 

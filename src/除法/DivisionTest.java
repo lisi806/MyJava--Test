@@ -1,4 +1,4 @@
-package ³ý·¨;
+ï»¿package é™¤æ³•;
 
 public class DivisionTest {
 	public static void main(String[] arg){

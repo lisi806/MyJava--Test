@@ -1,12 +1,12 @@
-package ÄÚ²¿Àà;
+ï»¿package å†…éƒ¨ç±»;
 
-import ÄÚ²¿Àà.OutClass.InnerClass;
-import ÄÚ²¿Àà.OutClass.InnerStaticClass;
+import å†…éƒ¨ç±».OutClass.InnerClass;
+import å†…éƒ¨ç±».OutClass.InnerStaticClass;
 
 /**
- * ¹¦ÄÜ£º
- * @author£º ´«Çï
- * @date£º2012-5-16
+ * åŠŸèƒ½ï¼š
+ * @authorï¼š ä¼ ç§‹
+ * @dateï¼š2012-5-16
  */
 
 public class InnerClassTest {

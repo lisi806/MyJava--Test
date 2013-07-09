@@ -1,14 +1,8 @@
-package ¶àÏß³ÌÓëËø.Éú²úÕßÏû·ÑÕß;
+ï»¿package å¤šçº¿ç¨‹ä¸é”.ç”Ÿäº§è€…æ¶ˆè´¹è€…;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-/**
- * ¹¦ÄÜ£º
- * 
- * @author£º ´«Çï
- * @date£º2012-2-21
- */
 class Meal {
 	private final int orderNum;
 

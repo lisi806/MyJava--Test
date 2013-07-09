@@ -1,10 +1,10 @@
-package ���ʼ��˳��;
+﻿package 类初始化顺序;
 /**
- * ���캯���ж�̬ ��������ʼ���쳣����Ϣ����Ϊ��ʱ��̬��ʱ�����Կ��ܻ�δ��ʼ��
+ * 构造函数中多态 会引发初始化异常等信息，因为此时动态绑定时，属性可能还未初始化
  * @author Administrator
  *
  */
-public class ���캯���ж�̬ {
+public class 构造函数中多态 {
 
 	/**
 	 * @author lcq

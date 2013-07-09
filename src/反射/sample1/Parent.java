@@ -1,8 +1,8 @@
-package ·´Éä.sample1;
+ï»¿package åå°„.sample1;
 /**
- * ¹¦ÄÜ£º
- * @author£º ´«Çï
- * @date£º2012-3-2
+ * åŠŸèƒ½ï¼š
+ * @authorï¼š ä¼ ç§‹
+ * @dateï¼š2012-3-2
  */
 
 public class Parent {  

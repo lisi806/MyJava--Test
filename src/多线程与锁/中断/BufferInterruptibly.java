@@ -1,5 +1,5 @@
-
-package ¶àÏß³ÌÓëËø.ÖĞ¶Ï;
+ï»¿
+package å¤šçº¿ç¨‹ä¸é”.ä¸­æ–­;
 
 import java.util.concurrent.locks.ReentrantLock;
 
@@ -11,23 +11,23 @@ public class BufferInterruptibly {
         lock.lock();
         try {
             long startTime = System.currentTimeMillis();
-            System.out.println("¿ªÊ¼ÍùÕâ¸öbuffĞ´ÈëÊı¾İ¡­");
-            for (;;)// Ä£ÄâÒª´¦ÀíºÜ³¤Ê±¼ä
+            System.out.println("å¼€å§‹å¾€è¿™ä¸ªbuffå†™å…¥æ•°æ®â€¦");
+            for (;;)// æ¨¡æ‹Ÿè¦å¤„ç†å¾ˆé•¿æ—¶é—´
             {
                 if (System.currentTimeMillis()
                         - startTime > Integer.MAX_VALUE)
                     break;
             }
-            System.out.println("ÖÕÓÚĞ´ÍêÁË");
+            System.out.println("ç»ˆäºå†™å®Œäº†");
         } finally {
             lock.unlock();
         }
     }
 
     public void read() throws InterruptedException {
-        lock.lockInterruptibly();// ×¢ÒâÕâÀï£¬¿ÉÒÔÏìÓ¦ÖĞ¶Ï
+        lock.lockInterruptibly();// æ³¨æ„è¿™é‡Œï¼Œå¯ä»¥å“åº”ä¸­æ–­
         try {
-            System.out.println("´ÓÕâ¸öbuff¶ÁÊı¾İ");
+            System.out.println("ä»è¿™ä¸ªbuffè¯»æ•°æ®");
         } finally {
             lock.unlock();
         }

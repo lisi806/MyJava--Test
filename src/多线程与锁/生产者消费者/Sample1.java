@@ -1,9 +1,4 @@
-package ¶àÏß³ÌÓëËø.Éú²úÕßÏû·ÑÕß;
-/**
- * ¹¦ÄÜ£ºÉú²úÕßÏû·ÑÕßÊµÏÖ
- * @author£º ´«Çï
- * @date£º2012-2-20
- */
+ï»¿package å¤šçº¿ç¨‹ä¸é”.ç”Ÿäº§è€…æ¶ˆè´¹è€…;
 
 import java.util.LinkedList;
 
@@ -25,7 +20,7 @@ public class Sample1{
     }
     
     public static void main(String[] args) throws Exception{
-    	Sample1 s2 = new Sample1();
+        Sample1 s2 = new Sample1();
         s2.start();
     }
     

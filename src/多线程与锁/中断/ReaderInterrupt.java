@@ -1,5 +1,5 @@
-
-package ¶àÏß³ÌÓëËø.ÖĞ¶Ï;
+ï»¿
+package å¤šçº¿ç¨‹ä¸é”.ä¸­æ–­;
 
 public class ReaderInterrupt extends Thread {
 
@@ -12,11 +12,11 @@ public class ReaderInterrupt extends Thread {
     @Override
     public void run() {
         try {
-            buff.read();// ¿ÉÒÔÊÕµ½ÖĞ¶ÏµÄÒì³££¬´Ó¶øÓĞĞ§ÍË³ö
+            buff.read();// å¯ä»¥æ”¶åˆ°ä¸­æ–­çš„å¼‚å¸¸ï¼Œä»è€Œæœ‰æ•ˆé€€å‡º
         } catch (InterruptedException e) {
-            System.out.println("ÎÒ²»¶ÁÁË");
+            System.out.println("æˆ‘ä¸è¯»äº†");
         }
-        System.out.println("¶Á½áÊø");
+        System.out.println("è¯»ç»“æŸ");
     }
 
 }

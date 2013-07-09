@@ -1,5 +1,5 @@
-
-package ¶àÏß³ÌÓëËø;
+ï»¿
+package å¤šçº¿ç¨‹ä¸é”;
 
 import java.util.concurrent.Executor;
 import java.util.concurrent.Executors;
@@ -25,7 +25,7 @@ class MyThread111 extends Thread {
     @Override
     public void run() {
         long current = System.currentTimeMillis();
-        System.out.println(getId() + "¿ªÊ¼ÔËĞĞ");
+        System.out.println(getId() + "å¼€å§‹è¿è¡Œ");
         while (System.currentTimeMillis() - current < Integer.MAX_VALUE) {
             
         }

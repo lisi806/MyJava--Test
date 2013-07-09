@@ -1,4 +1,4 @@
-package ¶àÏß³ÌÓëËø.Ïß³ÌË³Ğò;
+ï»¿package å¤šçº¿ç¨‹ä¸é”.çº¿ç¨‹é¡ºåº;
 
 public class ThreadOrderTest {
 	UpdateClass updateThread;

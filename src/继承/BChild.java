@@ -1,4 +1,4 @@
-package �̳�;
+﻿package 继承;
 
 public class BChild extends Asuper {
 	int a;

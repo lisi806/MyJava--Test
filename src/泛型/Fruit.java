@@ -1,8 +1,8 @@
-package ·ºÐÍ;
+ï»¿package æ³›åž‹;
 /**
- * ¹¦ÄÜ£º
- * @author£º ´«Çï
- * @date£º2012-2-27
+ * åŠŸèƒ½ï¼š
+ * @authorï¼š ä¼ ç§‹
+ * @dateï¼š2012-2-27
  */
 
 public class Fruit {

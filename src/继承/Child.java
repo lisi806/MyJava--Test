@@ -1,4 +1,4 @@
-package �̳�;
+﻿package 继承;
 
 public class Child extends Asuper {
 	private int[] a ;

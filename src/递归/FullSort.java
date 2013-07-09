@@ -23,7 +23,7 @@ import java.util.List;
  * @date 2009-04-25 23:57:23 PM 
  */  
 public class FullSort {  
-	//NUM是参加排列的个数
+    //NUM是参加排列的个数
     //将NUM设置为待排列数组的长度即实现全排列  
     private static int NUM = 2;  
   

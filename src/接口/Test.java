@@ -1,8 +1,8 @@
-package ½Ó¿Ú;
+ï»¿package æ¥å£;
 /**
- * ¹¦ÄÜ£º
- * @author£º ´«Çï
- * @date£º2011-7-15
+ * åŠŸèƒ½ï¼š
+ * @authorï¼š ä¼ ç§‹
+ * @dateï¼š2011-7-15
  */
 
 public class Test implements InterfaceTest{
