@@ -1,8 +1,8 @@
 package 递归;
 /**
- * ���ܣ�
- * @author�� ����
- * @date��2011-8-6
+ * 功能：
+ * @author： 传秋
+ * @date：2011-8-6
  */
 
 import java.util.ArrayList;  
@@ -11,24 +11,24 @@ import java.util.List;
   
 /** 
  * <p> 
- * Title:ȫ�����㷨 
+ * Title:全排列算法 
  * </p> 
  * 
  * <p> 
  * Copyright: http://blog.csdn.net/sunyujia/ 
  * </p> 
  * 
- * @author ���ڼ� 
+ * @author 孙钰佳 
  * @main sunyujia@yahoo.cn 
  * @date 2009-04-25 23:57:23 PM 
  */  
 public class FullSort {  
-    //NUM�ǲμ����еĸ���
-    //��NUM����Ϊ����������ĳ��ȼ�ʵ��ȫ����  
+    //NUM是参加排列的个数
+    //将NUM设置为待排列数组的长度即实现全排列  
     private static int NUM = 2;  
   
     /** 
-     * �ݹ��㷨������ݷ�Ϊ�����֣��ݹ齫��ݴ�������Ҳ�ʵ��ȫ���� 
+     * 递归算法：将数据分为两部分，递归将数据从左侧移右侧实现全排列 
      * 
      * @param datas 
      * @param target 
