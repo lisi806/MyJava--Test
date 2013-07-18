@@ -1,10 +1,10 @@
-package ¼¯ºÏ;
+ï»¿package é›†åˆ;
 
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 
-public class Map±éÀúTest {  
+public class Mapéå†Test {  
     static long MAX_LONG = 100000L;  
     static int TIMES = 100;  
     static Map<String, String> map = new HashMap<String, String>();
@@ -20,7 +20,7 @@ public class Map±éÀúTest {
         String valueStr = "";   
         String keyStr = "";  
         long start, end;  
-        //µÚÒ»ÖÖ±éÀú
+        //ç¬¬ä¸€ç§éå†
         start = System.currentTimeMillis();
         for(int i=0;i<TIMES;i++){
             for (String key : map.keySet()) {
@@ -30,9 +30,9 @@ public class Map±éÀúTest {
             }
         }
         end = System.currentTimeMillis();
-        System.out.println("µÚÒ»ÖÖ±éÀúºÄÊ± " + (end - start) + " ms ");  
+        System.out.println("ç¬¬ä¸€ç§éå†è€—æ—¶ " + (end - start) + " ms ");  
         
-        //µÚ¶şÖÖ±éÀú  
+        //ç¬¬äºŒç§éå†  
         Map.Entry<String, String> entry;
         start = System.currentTimeMillis();
         for(int i=0;i<TIMES;i++){
@@ -44,9 +44,9 @@ public class Map±éÀúTest {
             }
         }
         end = System.currentTimeMillis();
-        System.out.println("µÚ¶şÖÖ±éÀúºÄÊ± " + (end - start) + " ms ");  
+        System.out.println("ç¬¬äºŒç§éå†è€—æ—¶ " + (end - start) + " ms ");  
         
-        //µÚÈıÖÖ±éÀú  
+        //ç¬¬ä¸‰ç§éå†  
         start = System.currentTimeMillis();
         for(int i=0;i<TIMES;i++){
         	Iterator<Map.Entry<String, String>> it2 = map.entrySet().iterator(); 
@@ -57,9 +57,9 @@ public class Map±éÀúTest {
             }
         }
         end = System.currentTimeMillis();
-        System.out.println("µÚÈıÖÖ±éÀúºÄÊ± " + (end - start) + " ms ");  
+        System.out.println("ç¬¬ä¸‰ç§éå†è€—æ—¶ " + (end - start) + " ms ");  
         
-        //µÚËÄÖÖ±éÀú
+        //ç¬¬å››ç§éå†
         start = System.currentTimeMillis();
         for(int i=0;i<TIMES;i++){
             for (Map.Entry<String, String> entry3 : map.entrySet()) {
@@ -68,7 +68,7 @@ public class Map±éÀúTest {
             }
         }
         end = System.currentTimeMillis();
-        System.out.println("µÚËÄÖÖ±éÀúºÄÊ± " + (end - start) + " ms ");  
+        System.out.println("ç¬¬å››ç§éå†è€—æ—¶ " + (end - start) + " ms ");  
     }  
   
 }  

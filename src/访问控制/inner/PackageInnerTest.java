@@ -1,4 +1,4 @@
-package ·ÃÎÊ¿ØÖÆ.inner;
+ï»¿package è®¿é—®æ§åˆ¶.inner;
 
 class PackageInnerTest {
 	public PackageInnerTest(){

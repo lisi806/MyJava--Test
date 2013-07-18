@@ -1,8 +1,8 @@
-package Ç¿ÖÆÀàĞÍ×ª»»;
+ï»¿package å¼ºåˆ¶ç±»å‹è½¬æ¢;
 /**
- * ¹¦ÄÜ£º
- * @author£º ´«Çï
- * @date£º2012-3-19
+ * åŠŸèƒ½ï¼š
+ * @authorï¼š ä¼ ç§‹
+ * @dateï¼š2012-3-19
  */
 
 public class IntFormatTest {

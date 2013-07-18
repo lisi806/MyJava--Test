@@ -1,6 +1,6 @@
-package ·ÃÎÊ¿ØÖÆ1;
+ï»¿package è®¿é—®æ§åˆ¶1;
 
-import ·ÃÎÊ¿ØÖÆ.PrivateTest;
+import è®¿é—®æ§åˆ¶.PrivateTest;
 
 public class ProtectedPackageTest extends PrivateTest{
 	public void test() {

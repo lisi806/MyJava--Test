@@ -1,4 +1,4 @@
-package cloneÓëĞòÁĞ»¯;
+ï»¿package cloneä¸åºåˆ—åŒ–;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
@@ -9,7 +9,6 @@ import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
-import ¼Ì³Ğ.inner.Super;
 
 public class ArrayListAddTest {
 

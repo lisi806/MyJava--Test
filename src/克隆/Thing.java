@@ -1,8 +1,8 @@
-package 克隆;
+锘縫ackage 鍏嬮殕;
 
 import java.util.ArrayList;
 /**
- * 深克隆，其中mList为引用类型，所以clone方法并没有克隆到mList
+ * 娣卞厠闅嗭紝鍏朵腑mList涓哄紩鐢ㄧ被鍨嬶紝鎵�浠lone鏂规硶骞舵病鏈夊厠闅嗗埌mList
  * @author lcq
  */
 public class Thing implements Cloneable {
@@ -14,7 +14,7 @@ public class Thing implements Cloneable {
 		Thing thing = null;
 		try {
 			thing = (Thing) super.clone();
-			// 区别就在这里
+			// 鍖哄埆灏卞湪杩欓噷
 			thing.mList = (ArrayList)this.mList.clone();
 		} catch (CloneNotSupportedException e) {
 			e.printStackTrace();

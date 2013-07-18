@@ -4,7 +4,6 @@ import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
 /**
- * Title: Description: Copyright: Copyright (c) 2013 Company:深圳彩讯科技有限公司
  * 
  * @author licq 2013-7-9
  * @version 1.0

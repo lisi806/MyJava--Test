@@ -1,11 +1,11 @@
-package ·ºÐÍ;
+ï»¿package æ³›åž‹;
 
 import java.util.List;
 
 /**
- * ¹¦ÄÜ£º
- * @author£º ´«Çï
- * @date£º2012-2-27
+ * åŠŸèƒ½ï¼š
+ * @authorï¼š ä¼ ç§‹
+ * @dateï¼š2012-2-27
  */
 
 public class TestMain {
@@ -16,7 +16,7 @@ public class TestMain {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		List<? extends Fruit> list = null;
-		//±¨´í
+		//æŠ¥é”™
 //		list.add(new Apple());
 	}
 }

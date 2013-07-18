@@ -1,4 +1,4 @@
-package static±äÁ¿ºÍ´úÂë¿éµÄÖ´ĞĞË³Ğò;
+ï»¿package staticå˜é‡å’Œä»£ç å—çš„æ‰§è¡Œé¡ºåº;
 
 class Parent {
 	static String name = "hello";
@@ -31,6 +31,6 @@ class Child extends Parent {
 public class StaticIniBlockOrderTest {
 
 	public static void main(String[] args) {
-		new Child();// Óï¾ä(*)
+		new Child();// é”Ÿæ–¤æ‹·é”Ÿ?*)
 	}
 }

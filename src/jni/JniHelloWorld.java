@@ -1,8 +1,8 @@
-package jni;
+ï»¿package jni;
 /**
- * ¹¦ÄÜ£º
- * @author£º ´«Çï
- * @date£º2012-4-5
+ * åŠŸèƒ½ï¼š
+ * @authorï¼š ä¼ ç§‹
+ * @dateï¼š2012-4-5
  */
 
 public class JniHelloWorld {

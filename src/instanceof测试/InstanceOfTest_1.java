@@ -1,4 +1,4 @@
-package instanceof²âÊÔ;
+ï»¿package instanceofæµ‹è¯•;
 
 import java.util.ArrayList;
 import java.util.Collection;

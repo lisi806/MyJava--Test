@@ -1,4 +1,4 @@
-package ¶àÏß³ÌÓëËø.ÖĞ¶Ï;
+ï»¿package å¤šçº¿ç¨‹ä¸é”.ä¸­æ–­;
 
 public class TestInterruptMain {    
     public static void main(String[] args) {    
@@ -18,7 +18,7 @@ public class TestInterruptMain {
                 for (;;) {    
                     if (System.currentTimeMillis()    
                             - start > 5000) {    
-                        System.out.println("²»µÈÁË£¬³¢ÊÔÖĞ¶Ï");    
+                        System.out.println("ä¸ç­‰äº†ï¼Œå°è¯•ä¸­æ–­");    
                         reader.interrupt();    
                         break;    
                     }    

@@ -1,4 +1,4 @@
-package ¶àÏß³ÌÓëËø.calculator;
+ï»¿package å¤šçº¿ç¨‹ä¸é”.calculator;
 
 public class Calculator extends Thread 
 {
@@ -10,7 +10,7 @@ public class Calculator extends Thread
 				total += i;
 			}
 		}
-		// Í¨ÖªËùÓĞÔÚ´Ë¶ÔÏóÉÏµÈ´ıµÄÏß³Ì
+		// é€šçŸ¥é”Ÿæ–¤æ‹·é”Ÿæ–¤æ‹·é”ŸèŠ‚æ­¤è®¹æ‹·é”Ÿæ–¤æ‹·é”Ÿè¾ƒç­‰è¾¾æ‹·é”Ÿæ–¤æ‹·å±é”Ÿ?
 		notifyAll();
 	}
 }

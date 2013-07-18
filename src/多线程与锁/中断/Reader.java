@@ -1,5 +1,5 @@
-
-package ¶àÏß³ÌÓëËø.ÖĞ¶Ï;
+ï»¿
+package å¤šçº¿ç¨‹ä¸é”.ä¸­æ–­;
 
 public class Reader extends Thread {
 
@@ -16,8 +16,8 @@ public class Reader extends Thread {
 //        } catch (Exception e) {
 //            e.printStackTrace();
 //        }
-        buff.read();// ÕâÀï¹À¼Æ»áÒ»Ö±×èÈû
-        System.out.println("¶Á½áÊø");
+        buff.read();// è¿™é‡Œä¼°è®¡ä¼šä¸€ç›´é˜»å¡
+        System.out.println("è¯»ç»“æŸ");
     }
 
 }

@@ -1,4 +1,4 @@
-package ÖØĞ´ÖØÔØ;
+ï»¿package é‡å†™é‡è½½;
 
 public class ASuper {
 	protected Object getObj(){

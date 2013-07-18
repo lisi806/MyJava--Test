@@ -1,4 +1,4 @@
-package ·ÃÎÊ¿ØÖÆ;
+ï»¿package è®¿é—®æ§åˆ¶;
 
 public class PackageTest {
 //	public void test() {

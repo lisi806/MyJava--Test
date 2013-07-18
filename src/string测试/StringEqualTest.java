@@ -1,4 +1,4 @@
-package string²âÊÔ;
+ï»¿package stringæµ‹è¯•;
 
 public class StringEqualTest {
 

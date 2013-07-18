@@ -1,16 +1,16 @@
-package ·´Éä.sample1;
+ï»¿package åå°„.sample1;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 /**
- * ¹¦ÄÜ£º
- * @author£º ´«Çï
- * @date£º2012-3-2
+ * åŠŸèƒ½ï¼š
+ * @authorï¼š ä¼ ç§‹
+ * @dateï¼š2012-3-2
  */
 
 /** 
- * ·½·¨Àà 
+ * æ–¹æ³•ç±» 
  * @author syh 
  * 
  */  
@@ -18,11 +18,11 @@ import java.lang.reflect.Method;
 public class ReflectionUtils {  
   
     /** 
-     * Ñ­»·ÏòÉÏ×ªĞÍ, »ñÈ¡¶ÔÏóµÄ DeclaredMethod 
-     * @param object : ×ÓÀà¶ÔÏó 
-     * @param methodName : ¸¸ÀàÖĞµÄ·½·¨Ãû 
-     * @param parameterTypes : ¸¸ÀàÖĞµÄ·½·¨²ÎÊıÀàĞÍ 
-     * @return ¸¸ÀàÖĞµÄ·½·¨¶ÔÏó 
+     * å¾ªç¯å‘ä¸Šè½¬å‹, è·å–å¯¹è±¡çš„ DeclaredMethod 
+     * @param object : å­ç±»å¯¹è±¡ 
+     * @param methodName : çˆ¶ç±»ä¸­çš„æ–¹æ³•å 
+     * @param parameterTypes : çˆ¶ç±»ä¸­çš„æ–¹æ³•å‚æ•°ç±»å‹ 
+     * @return çˆ¶ç±»ä¸­çš„æ–¹æ³•å¯¹è±¡ 
      */  
       
     public static Method getDeclaredMethod(Object object, String methodName, Class<?> ... parameterTypes){  
@@ -33,8 +33,8 @@ public class ReflectionUtils {
                 method = clazz.getDeclaredMethod(methodName, parameterTypes) ;  
                 return method ;  
             } catch (Exception e) {  
-                //ÕâÀïÉõÃ´¶¼²»Òª×ö£¡²¢ÇÒÕâÀïµÄÒì³£±ØĞëÕâÑùĞ´£¬²»ÄÜÅ×³öÈ¥¡£  
-                //Èç¹ûÕâÀïµÄÒì³£´òÓ¡»òÕßÍùÍâÅ×£¬Ôò¾Í²»»áÖ´ĞĞclazz = clazz.getSuperclass(),×îºó¾Í²»»á½øÈëµ½¸¸ÀàÖĞÁË  
+                //è¿™é‡Œç”šä¹ˆéƒ½ä¸è¦åšï¼å¹¶ä¸”è¿™é‡Œçš„å¼‚å¸¸å¿…é¡»è¿™æ ·å†™ï¼Œä¸èƒ½æŠ›å‡ºå»ã€‚  
+                //å¦‚æœè¿™é‡Œçš„å¼‚å¸¸æ‰“å°æˆ–è€…å¾€å¤–æŠ›ï¼Œåˆ™å°±ä¸ä¼šæ‰§è¡Œclazz = clazz.getSuperclass(),æœ€åå°±ä¸ä¼šè¿›å…¥åˆ°çˆ¶ç±»ä¸­äº†  
               //e.printStackTrace();
             }  
         }  
@@ -43,26 +43,26 @@ public class ReflectionUtils {
     }  
       
     /** 
-     * Ö±½Óµ÷ÓÃ¶ÔÏó·½·¨, ¶øºöÂÔĞŞÊÎ·û(private, protected, default) 
-     * @param object : ×ÓÀà¶ÔÏó 
-     * @param methodName : ¸¸ÀàÖĞµÄ·½·¨Ãû 
-     * @param parameterTypes : ¸¸ÀàÖĞµÄ·½·¨²ÎÊıÀàĞÍ 
-     * @param parameters : ¸¸ÀàÖĞµÄ·½·¨²ÎÊı 
-     * @return ¸¸ÀàÖĞ·½·¨µÄÖ´ĞĞ½á¹û 
+     * ç›´æ¥è°ƒç”¨å¯¹è±¡æ–¹æ³•, è€Œå¿½ç•¥ä¿®é¥°ç¬¦(private, protected, default) 
+     * @param object : å­ç±»å¯¹è±¡ 
+     * @param methodName : çˆ¶ç±»ä¸­çš„æ–¹æ³•å 
+     * @param parameterTypes : çˆ¶ç±»ä¸­çš„æ–¹æ³•å‚æ•°ç±»å‹ 
+     * @param parameters : çˆ¶ç±»ä¸­çš„æ–¹æ³•å‚æ•° 
+     * @return çˆ¶ç±»ä¸­æ–¹æ³•çš„æ‰§è¡Œç»“æœ 
      */  
       
     public static Object invokeMethod(Object object, String methodName, Class<?> [] parameterTypes,  
             Object [] parameters) {  
-        //¸ù¾İ ¶ÔÏó¡¢·½·¨ÃûºÍ¶ÔÓ¦µÄ·½·¨²ÎÊı Í¨¹ı·´Éä µ÷ÓÃÉÏÃæµÄ·½·¨»ñÈ¡ Method ¶ÔÏó  
+        //æ ¹æ® å¯¹è±¡ã€æ–¹æ³•åå’Œå¯¹åº”çš„æ–¹æ³•å‚æ•° é€šè¿‡åå°„ è°ƒç”¨ä¸Šé¢çš„æ–¹æ³•è·å– Method å¯¹è±¡  
         Method method = getDeclaredMethod(object, methodName, parameterTypes) ;  
           
-        //ÒÖÖÆJava¶Ô·½·¨½øĞĞ¼ì²é,Ö÷ÒªÊÇÕë¶ÔË½ÓĞ·½·¨¶øÑÔ  
+        //æŠ‘åˆ¶Javaå¯¹æ–¹æ³•è¿›è¡Œæ£€æŸ¥,ä¸»è¦æ˜¯é’ˆå¯¹ç§æœ‰æ–¹æ³•è€Œè¨€  
         method.setAccessible(true) ;  
           
             try {  
                 if(null != method) {  
                       
-                    //µ÷ÓÃobject µÄ method Ëù´ú±íµÄ·½·¨£¬Æä·½·¨µÄ²ÎÊıÊÇ parameters  
+                    //è°ƒç”¨object çš„ method æ‰€ä»£è¡¨çš„æ–¹æ³•ï¼Œå…¶æ–¹æ³•çš„å‚æ•°æ˜¯ parameters  
                     return method.invoke(object, parameters) ;  
                 }  
             } catch (IllegalArgumentException e) {  
@@ -77,10 +77,10 @@ public class ReflectionUtils {
     }  
   
     /** 
-     * Ñ­»·ÏòÉÏ×ªĞÍ, »ñÈ¡¶ÔÏóµÄ DeclaredField 
-     * @param object : ×ÓÀà¶ÔÏó 
-     * @param fieldName : ¸¸ÀàÖĞµÄÊôĞÔÃû 
-     * @return ¸¸ÀàÖĞµÄÊôĞÔ¶ÔÏó 
+     * å¾ªç¯å‘ä¸Šè½¬å‹, è·å–å¯¹è±¡çš„ DeclaredField 
+     * @param object : å­ç±»å¯¹è±¡ 
+     * @param fieldName : çˆ¶ç±»ä¸­çš„å±æ€§å 
+     * @return çˆ¶ç±»ä¸­çš„å±æ€§å¯¹è±¡ 
      */  
       
     public static Field getDeclaredField(Object object, String fieldName){  
@@ -93,8 +93,8 @@ public class ReflectionUtils {
                 field = clazz.getDeclaredField(fieldName) ;  
                 return field ;  
             } catch (Exception e) {  
-                //ÕâÀïÉõÃ´¶¼²»Òª×ö£¡²¢ÇÒÕâÀïµÄÒì³£±ØĞëÕâÑùĞ´£¬²»ÄÜÅ×³öÈ¥¡£  
-                //Èç¹ûÕâÀïµÄÒì³£´òÓ¡»òÕßÍùÍâÅ×£¬Ôò¾Í²»»áÖ´ĞĞclazz = clazz.getSuperclass(),×îºó¾Í²»»á½øÈëµ½¸¸ÀàÖĞÁË  
+                //è¿™é‡Œç”šä¹ˆéƒ½ä¸è¦åšï¼å¹¶ä¸”è¿™é‡Œçš„å¼‚å¸¸å¿…é¡»è¿™æ ·å†™ï¼Œä¸èƒ½æŠ›å‡ºå»ã€‚  
+                //å¦‚æœè¿™é‡Œçš„å¼‚å¸¸æ‰“å°æˆ–è€…å¾€å¤–æŠ›ï¼Œåˆ™å°±ä¸ä¼šæ‰§è¡Œclazz = clazz.getSuperclass(),æœ€åå°±ä¸ä¼šè¿›å…¥åˆ°çˆ¶ç±»ä¸­äº†  
                   
             }   
         }  
@@ -103,22 +103,22 @@ public class ReflectionUtils {
     }     
       
     /** 
-     * Ö±½ÓÉèÖÃ¶ÔÏóÊôĞÔÖµ, ºöÂÔ private/protected ĞŞÊÎ·û, Ò²²»¾­¹ı setter 
-     * @param object : ×ÓÀà¶ÔÏó 
-     * @param fieldName : ¸¸ÀàÖĞµÄÊôĞÔÃû 
-     * @param value : ½«ÒªÉèÖÃµÄÖµ 
+     * ç›´æ¥è®¾ç½®å¯¹è±¡å±æ€§å€¼, å¿½ç•¥ private/protected ä¿®é¥°ç¬¦, ä¹Ÿä¸ç»è¿‡ setter 
+     * @param object : å­ç±»å¯¹è±¡ 
+     * @param fieldName : çˆ¶ç±»ä¸­çš„å±æ€§å 
+     * @param value : å°†è¦è®¾ç½®çš„å€¼ 
      */  
       
     public static void setFieldValue(Object object, String fieldName, Object value){  
       
-        //¸ù¾İ ¶ÔÏóºÍÊôĞÔÃûÍ¨¹ı·´Éä µ÷ÓÃÉÏÃæµÄ·½·¨»ñÈ¡ Field¶ÔÏó  
+        //æ ¹æ® å¯¹è±¡å’Œå±æ€§åé€šè¿‡åå°„ è°ƒç”¨ä¸Šé¢çš„æ–¹æ³•è·å– Fieldå¯¹è±¡  
         Field field = getDeclaredField(object, fieldName) ;  
           
-        //ÒÖÖÆJava¶ÔÆäµÄ¼ì²é  
+        //æŠ‘åˆ¶Javaå¯¹å…¶çš„æ£€æŸ¥  
         field.setAccessible(true) ;  
           
         try {  
-            //½« object ÖĞ field Ëù´ú±íµÄÖµ ÉèÖÃÎª value  
+            //å°† object ä¸­ field æ‰€ä»£è¡¨çš„å€¼ è®¾ç½®ä¸º value  
              field.set(object, value) ;  
         } catch (IllegalArgumentException e) {  
             e.printStackTrace();  
@@ -129,22 +129,22 @@ public class ReflectionUtils {
     }  
       
     /** 
-     * Ö±½Ó¶ÁÈ¡¶ÔÏóµÄÊôĞÔÖµ, ºöÂÔ private/protected ĞŞÊÎ·û, Ò²²»¾­¹ı getter 
-     * @param object : ×ÓÀà¶ÔÏó 
-     * @param fieldName : ¸¸ÀàÖĞµÄÊôĞÔÃû 
-     * @return : ¸¸ÀàÖĞµÄÊôĞÔÖµ 
+     * ç›´æ¥è¯»å–å¯¹è±¡çš„å±æ€§å€¼, å¿½ç•¥ private/protected ä¿®é¥°ç¬¦, ä¹Ÿä¸ç»è¿‡ getter 
+     * @param object : å­ç±»å¯¹è±¡ 
+     * @param fieldName : çˆ¶ç±»ä¸­çš„å±æ€§å 
+     * @return : çˆ¶ç±»ä¸­çš„å±æ€§å€¼ 
      */  
       
     public static Object getFieldValue(Object object, String fieldName){  
           
-        //¸ù¾İ ¶ÔÏóºÍÊôĞÔÃûÍ¨¹ı·´Éä µ÷ÓÃÉÏÃæµÄ·½·¨»ñÈ¡ Field¶ÔÏó  
+        //æ ¹æ® å¯¹è±¡å’Œå±æ€§åé€šè¿‡åå°„ è°ƒç”¨ä¸Šé¢çš„æ–¹æ³•è·å– Fieldå¯¹è±¡  
         Field field = getDeclaredField(object, fieldName) ;  
           
-        //ÒÖÖÆJava¶ÔÆäµÄ¼ì²é  
+        //æŠ‘åˆ¶Javaå¯¹å…¶çš„æ£€æŸ¥  
         field.setAccessible(true) ;  
           
         try {  
-            //»ñÈ¡ object ÖĞ field Ëù´ú±íµÄÊôĞÔÖµ  
+            //è·å– object ä¸­ field æ‰€ä»£è¡¨çš„å±æ€§å€¼  
             return field.get(object) ;  
               
         } catch(Exception e) {  

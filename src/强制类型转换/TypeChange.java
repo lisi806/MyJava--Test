@@ -1,4 +1,4 @@
-package Ç¿ÖÆÀàĞÍ×ª»»;
+ï»¿package å¼ºåˆ¶ç±»å‹è½¬æ¢;
 
 public class TypeChange {
 
@@ -20,6 +20,6 @@ public class TypeChange {
 int i = 785;
 float f = 1.5678;
 double d = 1.5;
-f=(int)(float)I¾ÓÈ»ÊÇÕıÈ·µÄ£¿£¿£¿
- ÊÇ´íÎóµÄ£¿
+f=(int)(float)Iå±…ç„¶æ˜¯æ­£ç¡®çš„ï¼Ÿï¼Ÿï¼Ÿ
+ æ˜¯é”™è¯¯çš„ï¼Ÿ
 */

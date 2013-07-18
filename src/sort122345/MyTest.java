@@ -1,13 +1,13 @@
-package sort122345;
+ï»¿package sort122345;
 import java.util.Set;  
 import java.util.TreeSet;
 /** 
- * ÎÊÌâÃèÊö£º£±£¬£²£¬£²£¬£³£¬£´£¬£µ¡¡ËùÓÐÅÅÁÐ£¬£´²»ÄÜ³öÏÖÔÚµÚ¶þ¸öÎ»ÖÃ£¬£³£µ²»ÄÜÔÚÒ»Æð
- * Ô­Ê¼°æ±¾Ã»ÓÐ¿¼ÂÇÖØ¸´ÎÊÌâ£¬ÎÒ½øÐÐÁËÐÞÕý.<br> 
- * ´ËËã·¨µÄ¾«»ª¾ÍÊÇ£¬ÈÃÒ»¸ö×Ö·û´®µÄËùÓÐÎ»ÖÃ¶¼½øÐÐ»¥»»£¬<br> 
- * ÕâÑù¾Í²úÉúÁËËùÓÐ¿ÉÄÜ³öÏÖµÄ×Ö·û´®¡£ 
+ * é—®é¢˜æè¿°ï¼šï¼‘ï¼Œï¼’ï¼Œï¼’ï¼Œï¼“ï¼Œï¼”ï¼Œï¼•ã€€æ‰€æœ‰æŽ’åˆ—ï¼Œï¼”ä¸èƒ½å‡ºçŽ°åœ¨ç¬¬äºŒä¸ªä½ç½®ï¼Œï¼“ï¼•ä¸èƒ½åœ¨ä¸€èµ·
+ * åŽŸå§‹ç‰ˆæœ¬æ²¡æœ‰è€ƒè™‘é‡å¤é—®é¢˜ï¼Œæˆ‘è¿›è¡Œäº†ä¿®æ­£.<br> 
+ * æ­¤ç®—æ³•çš„ç²¾åŽå°±æ˜¯ï¼Œè®©ä¸€ä¸ªå­—ç¬¦ä¸²çš„æ‰€æœ‰ä½ç½®éƒ½è¿›è¡Œäº’æ¢ï¼Œ<br> 
+ * è¿™æ ·å°±äº§ç”Ÿäº†æ‰€æœ‰å¯èƒ½å‡ºçŽ°çš„å­—ç¬¦ä¸²ã€‚ 
  *  
- * @author ÕÔÑ§Çì£¬nicky_zs <a href="http://www.java2000.net">www.java2000.net</a> 
+ * @author èµµå­¦åº†ï¼Œnicky_zs <a href="http://www.java2000.net">www.java2000.net</a> 
  */  
 public class MyTest {  
   public static void main(String args[]) {  

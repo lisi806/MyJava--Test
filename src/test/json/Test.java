@@ -1,4 +1,4 @@
-package test.json;
+﻿package test.json;
 
 import java.util.ArrayList;
 import java.util.Collection;

@@ -1,8 +1,8 @@
-/**
+ï»¿/**
  * Title:
  * Description:
  * Copyright: Copyright (c) 2013
- * Company:ÉîÛÚ²ÊÑ¶¿Æ¼¼ÓĞÏŞ¹«Ë¾
+ * Company:æ·±åœ³å½©è®¯ç§‘æŠ€æœ‰é™å…¬å¸
  *
  * @author licq 2013-5-29
  * @version 1.0
@@ -13,9 +13,9 @@ public class Combination {
 
 	public static void main(String[] args) {
 		String input = JOptionPane
-				.showInputDialog("please input your String£º ");
+				.showInputDialog("please input your Stringï¼š ");
 		String numString = JOptionPane
-				.showInputDialog("please input the number of your Combination£º ");
+				.showInputDialog("please input the number of your Combinationï¼š ");
 		int num = Integer.parseInt(numString);
 		Combine(input, num);
 	}

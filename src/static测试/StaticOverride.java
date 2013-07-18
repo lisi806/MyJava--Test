@@ -1,41 +1,41 @@
-package static²âÊÔ;
+package staticæµ‹è¯•;
 
 
 
 /**
- * ¹¦ÄÜ£º
- * @author£º ´«Çï
- * @date£º2011-5-8
+ * ï¿½ï¿½ï¿½Ü£ï¿½
+ * @authorï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+ * @dateï¿½ï¿½2011-5-8
  */
 class Window{
-	static void f(){
-		System.out.println("Window");
-	}
-	void f1(){
-		f();
-	}
+    static void f(){
+        System.out.println("Window");
+    }
+    void f1(){
+        f();
+    }
 }
 
 class House extends Window{
-	static void f(){
-		System.out.println("House");
-	}
-	void f1(){
-		f();
-	}
-	
+    static void f(){
+        System.out.println("House");
+    }
+    void f1(){
+        f();
+    }
+    
 }
 
 public class StaticOverride {
-	int i = 0;
-	/**
-	 * @param args
-	 */
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		Window w1 = new House();
-		w1.f();
-		w1.f1();
-	}
+    int i = 0;
+    /**
+     * @param args
+     */
+    public static void main(String[] args) {
+        // TODO Auto-generated method stub
+        Window w1 = new House();
+        w1.f();
+        w1.f1();
+    }
 
 }

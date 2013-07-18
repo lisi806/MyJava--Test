@@ -1,11 +1,11 @@
-package static±äÁ¿ºÍ´úÂë¿éµÄÖ´ĞĞË³Ğò;
+ï»¿package staticå˜é‡å’Œä»£ç å—çš„æ‰§è¡Œé¡ºåº;
 
 public class TestStaticOrder {
 	
 	
 	static
 	{
-		System.out.println("¾²Ì¬´úÂë¿é");
+		System.out.println("åˆå§‹åŒ–");
 	}
 	
 	private static ClassA classA = new ClassA();

@@ -1,6 +1,6 @@
-package ¼Ì³Ð;
+ï»¿package ç»§æ‰¿;
 
-import ¼Ì³Ð.inner.Super;
+import ç»§æ‰¿.inner.Super;
 
 public class Asuper extends Super{
 	Asuper parent;

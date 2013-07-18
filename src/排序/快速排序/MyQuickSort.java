@@ -1,5 +1,5 @@
-
-package ÅÅĞò.¿ìËÙÅÅĞò;
+ï»¿
+package æ’åº.å¿«é€Ÿæ’åº;
 
 public class MyQuickSort {
 
@@ -20,7 +20,7 @@ public class MyQuickSort {
     }
     private static void partition(int[] array) {
         int length = array.length;
-        // Ñ¡È¡×îºóÒ»¸ö×÷ÎªÊàÅ¦
+        // é€‰å–æœ€åä¸€ä¸ªä½œä¸ºæ¢çº½
         int pivot = array[length - 1];
         int j = 0;
         for (int i = 1; i < length - 1; i++) {

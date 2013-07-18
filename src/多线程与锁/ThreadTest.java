@@ -1,11 +1,11 @@
-package ¶àÏß³ÌÓëËø;
+ï»¿package å¤šçº¿ç¨‹ä¸é”;
 
 import javax.swing.plaf.SliderUI;
 
 /**
- * ¹¦ÄÜ£º
- * @author£º ´«Çï
- * @date£º2011-7-19
+ * åŠŸèƒ½ï¼š
+ * @authorï¼š ä¼ ç§‹
+ * @dateï¼š2011-7-19
  */
 
 public class ThreadTest implements Runnable {

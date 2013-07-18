@@ -1,8 +1,8 @@
-package ½Ó¿Ú.inner;
+ï»¿package æ¥å£.inner;
 /**
- * ¹¦ÄÜ£º
- * @author£º ´«Çï
- * @date£º2011-5-8
+ * åŠŸèƒ½ï¼š
+ * @authorï¼š ä¼ ç§‹
+ * @dateï¼š2011-5-8
  */
 
 public interface AInterface {

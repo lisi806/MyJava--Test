@@ -1,27 +1,21 @@
-package string²âÊÔ;
+ï»¿package stringæµ‹è¯•;
 
 import java.io.UnsupportedEncodingException;
 import java.nio.charset.Charset;
 
-/**
- * ¹¦ÄÜ£º
- * @author£º ´«Çï
- * @date£º2011-4-27
- */
-
 public class StringEncode {
 
-	/**
-	 * @param args
-	 * @throws UnsupportedEncodingException 
-	 */
-	public static void main(String[] args) throws UnsupportedEncodingException {
-		
-		String test = "abcdefgÎÒ";
-		String encodeString = new String (test.getBytes("UTF-8"),"ISO8859-1");
-		
-		System.out.println(encodeString);
-		
-	}
+    /**
+     * @param args
+     * @throws UnsupportedEncodingException 
+     */
+    public static void main(String[] args) throws UnsupportedEncodingException {
+        
+        String test = "abcdefgæˆ‘?";
+        String encodeString = new String (test.getBytes("UTF-8"),"ISO8859-1");
+        
+        System.out.println(encodeString);
+        
+    }
 
 }

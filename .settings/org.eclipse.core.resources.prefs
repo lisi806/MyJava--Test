@@ -1,3 +1,6 @@
 eclipse.preferences.version=1
 encoding/.gitignore=UTF-8
-encoding/<project>=GBK
+encoding//src/com/xiaoqlu/framework/security/Base64.java=UTF-8
+encoding//src/com/xiaoqlu/framework/security/MD5EncodeUtil.java=UTF-8
+encoding//src/com/xiaoqlu/framework/security/MD5FileEncode.java=UTF-8
+encoding/<project>=UTF-8

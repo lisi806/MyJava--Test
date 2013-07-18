@@ -1,4 +1,4 @@
-package ¶àÏß³ÌÓëËø.suspend;
+ï»¿package å¤šçº¿ç¨‹ä¸é”.suspend;
 
 public class SuspendTest {
 
@@ -8,11 +8,11 @@ public class SuspendTest {
 
 		TestThreadMethod t2 = new TestThreadMethod("t2");
 
-		t1.start();// £¨5£©
+		t1.start();// 
 
-		 t1.start(); //£¨3£©
+		 t1.start(); //
 
-//		t2.start();// £¨4£©
+//		t2.start();// 
 
 	}
 
@@ -38,7 +38,7 @@ class TestThreadMethod extends Thread {
 
 				if (shareVar == 5) {
 
-					this.suspend();// £¨1£©
+					this.suspend();// é”Ÿæ–¤æ‹·1é”Ÿæ–¤æ‹·
 
 				}
 
@@ -50,7 +50,7 @@ class TestThreadMethod extends Thread {
 
 			System.out.println(" shareVar = " + shareVar);
 
-			this.resume();// £¨2£©
+			this.resume();// é”Ÿæ–¤æ‹·2é”Ÿæ–¤æ‹·
 
 		}
 

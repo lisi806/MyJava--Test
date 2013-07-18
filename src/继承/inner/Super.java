@@ -1,4 +1,4 @@
-package �̳�.inner;
+﻿package 继承.inner;
 
 public class Super {
 	private CharSequence[] a ;

@@ -1,4 +1,4 @@
-package ¶àÏß³ÌÓëËø.Ëø;
+ï»¿package å¤šçº¿ç¨‹ä¸é”.é”;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -26,9 +26,9 @@ public class ReentrantLockTest {
                 try {
                     int i =0;
                     while(i < 5) {
-                        System.out.println(this.getId()+"»ñÈ¡Ëø");
+                        System.out.println(this.getId()+"é”Ÿæ–¤æ‹·å–é”Ÿæ–¤æ‹·");
                         con.await(time, TimeUnit.SECONDS);
-                        System.out.println(this.getId()+"continue´ÎÊı:"+i);
+                        System.out.println(this.getId()+"continueé”Ÿæ–¤æ‹·é”Ÿæ–¤æ‹·:"+i);
                         i ++;
                     }
                 } catch (InterruptedException e) {

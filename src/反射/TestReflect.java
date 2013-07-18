@@ -1,12 +1,12 @@
-package ·´Éä;
+ï»¿package åå°„;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
 /**
- * ¹¦ÄÜ£º
- * @author£º ´«Çï
- * @date£º2012-3-1
+ * åŠŸèƒ½ï¼š
+ * @authorï¼š ä¼ ç§‹
+ * @dateï¼š2012-3-1
  */
 class Father {
 	public Father(){

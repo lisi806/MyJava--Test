@@ -1,11 +1,11 @@
-package ½Ó¿Ú;
+ï»¿package æ¥å£;
 
-import ½Ó¿Ú.inner.AInterface;
+import æ¥å£.inner.AInterface;
 
 /**
- * ¹¦ÄÜ£º
- * @author£º ´«Çï
- * @date£º2011-5-8
+ * åŠŸèƒ½ï¼š
+ * @authorï¼š ä¼ ç§‹
+ * @dateï¼š2011-5-8
  */
 public interface InterfaceTest extends AInterface , B{
 	

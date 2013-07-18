@@ -1,8 +1,8 @@
-package sort122345;
+ï»¿package sort122345;
 /**
- * ¹¦ÄÜ£º
- * @author£º ´«Çï
- * @date£º2011-8-5
+ * åŠŸèƒ½ï¼š
+ * @authorï¼š ä¼ ç§‹
+ * @dateï¼š2011-8-5
  */
 import java.util.ArrayList;  
 

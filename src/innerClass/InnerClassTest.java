@@ -1,22 +1,22 @@
-package innerClass;
+ï»¿package innerClass;
 
 import javax.swing.JApplet;
 
 import innerClass.InnerClass.Inner1;
 
 /**
- * ¹¦ÄÜ£º
- * @author£º ´«Çï
- * @date£º2011-8-14
+ * åŠŸèƒ½ï¼š
+ * @authorï¼š ä¼ ç§‹
+ * @dateï¼š2011-8-14
  */
 class InnerClass{
 	public InnerClass (){
-		System.out.println("father initialized¡­¡­");
+		System.out.println("father initializedâ€¦â€¦");
 	}
 	private class Inner{
 		private  int in =2;
 		public Inner(){
-			System.out.println("child initialized¡­¡­");
+			System.out.println("child initializedâ€¦â€¦");
 		}
 		public void test () {
 			System.out.println("a");

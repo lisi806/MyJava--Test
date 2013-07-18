@@ -1,7 +1,7 @@
-package ÄÚ²¿Àà;
+ï»¿package å†…éƒ¨ç±»;
 
-import ÄÚ²¿Àà.OutClass.InnerClass;
-import ÄÚ²¿Àà.OutClass.InnerStaticClass;
+import å†…éƒ¨ç±».OutClass.InnerClass;
+import å†…éƒ¨ç±».OutClass.InnerStaticClass;
 
 public class StaticInner {
 	int a;

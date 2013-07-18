@@ -1,4 +1,4 @@
-package innerClass;
+ï»¿package innerClass;
 
 import java.awt.event.ActionEvent;
 import java.beans.PropertyChangeListener;
@@ -7,9 +7,9 @@ import javax.swing.Action;
 import javax.swing.JButton;
 
 /**
- * ¹¦ÄÜ£º
- * @author£º ´«Çï
- * @date£º2012-3-30
+ * åŠŸèƒ½ï¼š
+ * @authorï¼š ä¼ ç§‹
+ * @dateï¼š2012-3-30
  */
 
 public class InTest {

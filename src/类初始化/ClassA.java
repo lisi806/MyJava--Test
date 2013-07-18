@@ -1,4 +1,4 @@
-package Àà³õÊ¼»¯;
+ï»¿package ç±»åˆå§‹åŒ–;
 
 public class ClassA {
 	int a;

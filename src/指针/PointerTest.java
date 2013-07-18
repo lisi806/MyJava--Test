@@ -1,4 +1,4 @@
-package ָ��;
+﻿package 指针;
 
 public class PointerTest {
 

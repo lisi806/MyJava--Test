@@ -1,18 +1,18 @@
-package ·´Éä.sample1;
+ï»¿package åå°„.sample1;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 /**
- * ¹¦ÄÜ£º
- * @author£º ´«Çï
- * @date£º2012-3-2
+ * åŠŸèƒ½ï¼š
+ * @authorï¼š ä¼ ç§‹
+ * @dateï¼š2012-3-2
  */
 
 import org.junit.Test;
 
 
 /** 
-* ²âÊÔÀà,ÓÃJUnit4 ½øĞĞ²âÊÔ 
+* æµ‹è¯•ç±»,ç”¨JUnit4 è¿›è¡Œæµ‹è¯• 
 * @author syh 
 * 
 */  
@@ -20,7 +20,7 @@ import org.junit.Test;
 public class ReflectionUtilsTest {  
 
   /** 
-   * ²âÊÔ»ñÈ¡¸¸ÀàµÄ¸÷¸ö·½·¨¶ÔÏó 
+   * æµ‹è¯•è·å–çˆ¶ç±»çš„å„ä¸ªæ–¹æ³•å¯¹è±¡ 
    */  
     
   @Test  
@@ -28,25 +28,25 @@ public class ReflectionUtilsTest {
         
       Object obj = new Son() ;  
         
-      //»ñÈ¡¹«¹²·½·¨Ãû  
+      //è·å–å…¬å…±æ–¹æ³•å  
       Method publicMethod = ReflectionUtils.getDeclaredMethod(obj, "publicMethod") ;  
       System.out.println(publicMethod.getName());  
         
-      //»ñÈ¡Ä¬ÈÏ·½·¨Ãû  
+      //è·å–é»˜è®¤æ–¹æ³•å  
       Method defaultMethod = ReflectionUtils.getDeclaredMethod(obj, "defaultMethod") ;  
       System.out.println(defaultMethod.getName());  
         
-      //»ñÈ¡±»±£»¤·½·¨Ãû  
+      //è·å–è¢«ä¿æŠ¤æ–¹æ³•å  
       Method protectedMethod = ReflectionUtils.getDeclaredMethod(obj, "protectedMethod") ;  
       System.out.println(protectedMethod.getName());  
         
-      //»ñÈ¡Ë½ÓĞ·½·¨Ãû  
+      //è·å–ç§æœ‰æ–¹æ³•å  
       Method privateMethod = ReflectionUtils.getDeclaredMethod(obj, "privateMethod") ;  
       System.out.println(privateMethod.getName());  
   }  
 
   /** 
-   * ²âÊÔµ÷ÓÃ¸¸ÀàµÄ·½·¨ 
+   * æµ‹è¯•è°ƒç”¨çˆ¶ç±»çš„æ–¹æ³• 
    * @throws Exception 
    */  
     
@@ -54,21 +54,21 @@ public class ReflectionUtilsTest {
   public void testInvokeMethod() throws Exception {  
       Object obj = new Son() ;  
         
-      //µ÷ÓÃ¸¸ÀàµÄ¹«¹²·½·¨  
+      //è°ƒç”¨çˆ¶ç±»çš„å…¬å…±æ–¹æ³•  
       ReflectionUtils.invokeMethod(obj, "publicMethod", null , null) ;  
         
-      //µ÷ÓÃ¸¸ÀàµÄÄ¬ÈÏ·½·¨  
+      //è°ƒç”¨çˆ¶ç±»çš„é»˜è®¤æ–¹æ³•  
       ReflectionUtils.invokeMethod(obj, "defaultMethod", null , null) ;  
         
-      //µ÷ÓÃ¸¸ÀàµÄ±»±£»¤·½·¨  
+      //è°ƒç”¨çˆ¶ç±»çš„è¢«ä¿æŠ¤æ–¹æ³•  
       ReflectionUtils.invokeMethod(obj, "protectedMethod", null , null) ;  
         
-      //µ÷ÓÃ¸¸ÀàµÄË½ÓĞ·½·¨  
+      //è°ƒç”¨çˆ¶ç±»çš„ç§æœ‰æ–¹æ³•  
       ReflectionUtils.invokeMethod(obj, "privateMethod", null , null) ;  
   }  
 
   /** 
-   * ²âÊÔ»ñÈ¡¸¸ÀàµÄ¸÷¸öÊôĞÔÃû 
+   * æµ‹è¯•è·å–çˆ¶ç±»çš„å„ä¸ªå±æ€§å 
    */  
     
   @Test  
@@ -76,19 +76,19 @@ public class ReflectionUtilsTest {
         
       Object obj = new Son() ;  
         
-      //»ñÈ¡¹«¹²ÊôĞÔÃû  
+      //è·å–å…¬å…±å±æ€§å  
       Field publicField = ReflectionUtils.getDeclaredField(obj, "publicField") ;  
       System.out.println(publicField.getName());  
         
-      //»ñÈ¡¹«¹²ÊôĞÔÃû  
+      //è·å–å…¬å…±å±æ€§å  
       Field defaultField = ReflectionUtils.getDeclaredField(obj, "defaultField") ;  
       System.out.println(defaultField.getName());  
         
-      //»ñÈ¡¹«¹²ÊôĞÔÃû  
+      //è·å–å…¬å…±å±æ€§å  
       Field protectedField = ReflectionUtils.getDeclaredField(obj, "protectedField") ;  
       System.out.println(protectedField.getName());  
         
-      //»ñÈ¡¹«¹²ÊôĞÔÃû  
+      //è·å–å…¬å…±å±æ€§å  
       Field privateField = ReflectionUtils.getDeclaredField(obj, "privateField") ;  
       System.out.println(privateField.getName());  
         
@@ -99,7 +99,7 @@ public class ReflectionUtilsTest {
         
       Object obj = new Son() ;  
         
-      System.out.println("Ô­À´µÄ¸÷¸öÊôĞÔµÄÖµ: ");  
+      System.out.println("åŸæ¥çš„å„ä¸ªå±æ€§çš„å€¼: ");  
       System.out.println("publicField = " + ReflectionUtils.getFieldValue(obj, "publicField"));  
       System.out.println("defaultField = " + ReflectionUtils.getFieldValue(obj, "defaultField"));  
       System.out.println("protectedField = " + ReflectionUtils.getFieldValue(obj, "protectedField"));  
@@ -112,7 +112,7 @@ public class ReflectionUtilsTest {
         
       System.out.println("***********************************************************");  
         
-      System.out.println("½«ÊôĞÔÖµ¸Ä±äºóµÄ¸÷¸öÊôĞÔÖµ: ");  
+      System.out.println("å°†å±æ€§å€¼æ”¹å˜åçš„å„ä¸ªå±æ€§å€¼: ");  
       System.out.println("publicField = " + ReflectionUtils.getFieldValue(obj, "publicField"));  
       System.out.println("defaultField = " + ReflectionUtils.getFieldValue(obj, "defaultField"));  
       System.out.println("protectedField = " + ReflectionUtils.getFieldValue(obj, "protectedField"));  

@@ -1,4 +1,4 @@
-package �첽ͬ��;
+﻿package 异步同步;
 
 import java.util.Timer;
 import java.util.TimerTask;
