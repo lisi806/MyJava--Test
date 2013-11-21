@@ -7,4 +7,5 @@
 
 public interface AInterface {
 	public void play();
+	void testVisible();
 }

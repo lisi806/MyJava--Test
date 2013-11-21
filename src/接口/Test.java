@@ -15,13 +15,19 @@ public class Test implements InterfaceTest{
 
 	}
 
-	
+	@Override
+	public void testVisible() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
 	public void play() {
 		// TODO Auto-generated method stub
 		
 	}
 
-	
+	@Override
 	public void name() {
 		// TODO Auto-generated method stub
 		

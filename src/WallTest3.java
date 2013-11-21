@@ -47,7 +47,8 @@ public class WallTest3 {
 	public void getAdList() throws Exception{
 		String reqUrl=requrl+"/wall/wall?func=wall:walllist&version=2";
 //		String reqUrl="http://221.176.9.136:8080/wall/wall?func=wall:walllist";
-		doPost(reqUrl,"{appKey:'321456',curPage:1,imei:'866780016277022',mac:'0c:37:dc:66:b2:2f',pid:1}");
+		reqUrl="http://221.176.9.145:7000/AppWallAPI/wall?func=wall:walllist&version=2";
+		doPost(reqUrl,"{appKey:'123456789',curPage:1,imei:'866780016277022',mac:'0c:37:dc:66:b2:2f',pid:1}");
 	}
 	public void getAdDetail() throws Exception{
 		String reqUrl=requrl+"/wall/wall?func=wall:addetail&version=2";
