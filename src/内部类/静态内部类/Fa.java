@@ -9,7 +9,23 @@ package 内部类.静态内部类;
  * @version 1.0
  */
 public class Fa {
+	String str;
+	static String sStr;
+
 	public static class StaticIn {
 		public int a;
+
+		public void a() {
+			//			str = "";
+			sStr = "";
+		}
+	}
+
+	public static void main(String arg[]) {
+		StaticIn s1 = new StaticIn();
+		StaticIn s2 = new StaticIn();
+		System.out.println(s1.hashCode());
+		System.out.println(s2.hashCode());
+		System.out.println(s1 == s2);
 	}
 }
