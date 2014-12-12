@@ -1,9 +1,11 @@
 ﻿package 重载与覆盖;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
-public class CoverTest extends FatherCover {
+public class OverrideTest extends Father {
 	public List<String> mHeaders = new ArrayList<String>();
 	String a = "child";
 
@@ -13,15 +15,17 @@ public class CoverTest extends FatherCover {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		FatherCover test = new CoverTest();
-		test.tt();
+		Father test = new OverrideTest();
+		test.testOverride();
+		Map a = new HashMap();
+		test.test(a);
 		// test.mHeaders.add("c");
 		for (String str : test.mHeaders) {
 			System.out.println(str);
 		}
 		System.out.println(".........");
 
-		FatherCover fa = test;
+		Father fa = test;
 		for (String str : fa.mHeaders) {
 			System.out.println(str);
 		}
@@ -31,11 +35,15 @@ public class CoverTest extends FatherCover {
 	}
 
 	@Override
-	String tt() {
-		super.tt();
+	String testOverride() {
+		super.testOverride();
 		this.mHeaders.add("child tt");
 		super.mHeaders.add("father-child tt");
 		return null;
+	}
+
+	void test(HashMap map) {
+		System.out.println("child tt(HashMap)");
 	}
 
 	@Override
