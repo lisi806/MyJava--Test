@@ -36,4 +36,5 @@ public class Msg {
 		this.msgType = msgType;
 	}
 	
+	assss
 }
