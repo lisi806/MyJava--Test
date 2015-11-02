@@ -1,6 +1,5 @@
 ﻿
 public class Msg {
-	aaa
 	String body;
 	int networkType;
 	int hasSim;
@@ -36,6 +35,4 @@ public class Msg {
 	public void setMsgType(int msgType) {
 		this.msgType = msgType;
 	}
-	
-	assss
 }
