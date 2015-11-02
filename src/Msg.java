@@ -35,5 +35,5 @@ public class Msg {
 	public void setMsgType(int msgType) {
 		this.msgType = msgType;
 	}
-	//for test1
+	//for test2
 }
