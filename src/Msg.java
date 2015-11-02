@@ -1,5 +1,6 @@
 ﻿
 public class Msg {
+	aaa
 	String body;
 	int networkType;
 	int hasSim;
